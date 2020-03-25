@@ -1,0 +1,25 @@
+{
+  "npmScope": "mono-repo",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": "*",
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "MonoRepo": {
+      "tags": []
+    },
+    "MonoRepo-e2e": {
+      "tags": []
+    },
+    "authentication": {
+      "tags": []
+    },
+    "authentication-e2e": {
+      "tags": [],
+      "implicitDependencies": ["authentication"]
+    }
+  }
+}
