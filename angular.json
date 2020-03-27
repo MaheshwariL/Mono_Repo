@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/browser",
+            "outputPath": "dist/apps/MonoRepo/browser",
             "index": "apps/MonoRepo/src/index.html",
             "main": "apps/MonoRepo/src/main.ts",
             "polyfills": "apps/MonoRepo/src/polyfills.ts",
@@ -109,7 +109,7 @@
         "server": {
           "builder": "@angular-devkit/build-angular:server",
           "options": {
-            "outputPath": "dist/server",
+            "outputPath": "dist/apps/MonoRepo/server",
             "main": "apps/MonoRepo/src/main.server.ts",
             "tsConfig": "apps/MonoRepo/tsconfig.server.json"
           },
